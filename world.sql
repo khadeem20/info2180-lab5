@@ -5412,3 +5412,5 @@ UNLOCK TABLES;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
 -- Dump completed on 2008-06-06 19:04:10
+
+Select * FROM countries WHERE name LIKE 'Jamaica';
