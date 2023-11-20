@@ -1,1 +1,50 @@
 /* Add your own styles */
+/* Add your own styles */
+
+header{
+    display: flex;
+    background-color:dimgray;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 50px;
+}
+
+header img{
+    height: 150px;
+    width: auto;
+}
+
+main{
+    text-align: center;
+}
+
+#lookup{
+    background-color: aqua; 
+}
+
+#cityLookup{
+    background-color: rgb(57, 109, 206);
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+table{
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th{
+    border: 1px solid #ddd;
+    padding: 8px;  
+}
+
+tr :nth-child(even){
+    background-color: rgb(196, 253, 255);
+}
